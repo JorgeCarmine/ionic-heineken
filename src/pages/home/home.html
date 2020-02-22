@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle start>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>GESTYD</ion-title>
+    <button ion-button menuToggle end>
+      <ion-icon name="cart"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <ion-tabs color="secondary">
+    <ion-tab tabIcon="clipboard" tabTitle="Mis Pedidos" [root]="tabOrders"></ion-tab>
+    <ion-tab tabIcon="bus" tabTitle="Proveedores" [root]="tabProviders"></ion-tab>
+    <ion-tab tabIcon="search" tabTitle="Busqueda" [root]="tabSearchPage"></ion-tab>
+  </ion-tabs>
+
+</ion-content>

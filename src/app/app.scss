@@ -1,0 +1,56 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+ion-icon {
+    /*
+    &[class*="custom-"] {
+    }
+    */
+  
+    &[class*="custom-configurations"] {
+      background: url(../assets/icons/configurations.svg) no-repeat top left;
+    }
+    &[class*="custom-favorite"] {
+      background: url(../assets/icons/favorite.svg) no-repeat top left;
+    }
+    &[class*="custom-history"] {
+        background: url(../assets/icons/history.svg) no-repeat top left;
+    }
+    &[class*="custom-home"] {
+      background: url(../assets/icons/home.svg) no-repeat top left;
+    }
+    &[class*="custom-orders"] {
+        background: url(../assets/icons/orders.svg) no-repeat top left;
+    }
+    &[class*="custom-payment"] {
+        background: url(../assets/icons/payment.svg) no-repeat top left;
+    }
+    &[class*="custom-profile"] {
+        background: url(../assets/icons/profile.svg) no-repeat top left;
+    }
+    &[class*="custom-providers"] {
+        background: url(../assets/icons/providers.svg) no-repeat top left;
+    }
+    &[class*="ios-custom-search"] {
+        background: url(../assets/icons/search.svg) no-repeat top left;
+    }
+    &[class*="custom-shopping-cart"] {
+        background: url(../assets/icons/shopping-cart.svg) no-repeat top left;
+    }
+  
+  }

@@ -1,0 +1,7 @@
+{
+  "name": "gestyd",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
